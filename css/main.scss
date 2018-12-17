@@ -4,13 +4,12 @@
 @import "normalize";
 
 // Mixins & Vars
-
-$navy_bg:             #263648;
-$navy_bg_light:       #2f4358;
 $blue_text_drk:       #6784a2;
 $blue_text:           #66adfb;
 $blue_text_lht:       #97afc8;
 $blue_light:          #d2dae3;
+$lighter-black:       #181717;
+$black:               #000000;
 $green:               #00bd9c;
 $red:                 #ff6d6f;
 $yellow:              #f8f65e;
@@ -36,7 +35,7 @@ $purple:              #d070d1;
 
 // @group main styles --------------------
 
-html { background-color: $navy_bg; }
+html { background-color: $black; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -48,12 +47,12 @@ body{
   @include sans_regular;
   font-size:16px;
   line-height:1.5;
-  background-color: $navy_bg_light;
+  background-color: $lighter_black;
 }
 
 .page-header {
   width: 300px; height: 100%;
-  background-color: $navy_bg;
+  background-color: $black;
   position: fixed;
   left: 0; top: 0; bottom: 0;
   color: white;
@@ -74,7 +73,7 @@ body{
     letter-spacing: -.05em;
     font-size: 2rem;
     margin: 14px 0;
-    color: #00bd9c;
+    color: white;
   }
 
   .img-preview {
@@ -96,7 +95,7 @@ body{
       border: none;
       border-radius: 3px;
       padding: 3px 6px;
-      background: $navy_bg_light;
+      background: $lighter_black;
       color: $blue_text_lht;
     }
   }
@@ -161,7 +160,7 @@ body{
 
     // Style individual category cards
     > li {
-      background-color: $navy_bg;
+      background-color: $black;
       border-radius: 10px;
       padding: 6px 10px;
       margin: 0 0 20px 0;
@@ -171,7 +170,7 @@ body{
       -moz-column-break-inside: avoid;
       -webkit-column-break-inside: avoid;
       column-break-inside: avoid;
-      color: $green;
+      color: white;
 
       &.hidden {
         display: none;
@@ -192,7 +191,7 @@ body{
           overflow: hidden;
           font-size: 16px;
           text-transform: none;
-          background-color: $navy_bg_light;
+          background-color: $lighter_black;
           border-radius: 5px;
           padding: 0;
           margin: 0 0 5px 0;
