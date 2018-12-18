@@ -252,6 +252,15 @@
   - dance
   - dancing
   - gif
+- title: gunther-dance.gif
+  category: dancing
+  path: dancing/gunther-dance.gif
+  modified_time: 1527820100
+  tags:
+  - dance
+  - dancing
+  - gif
+  - gunther
 - title: crash-bandicoot-dance.gif
   category: dancing
   path: dancing/crash-bandicoot-dance.gif
@@ -271,6 +280,15 @@
   - gif
   - moves
   - nice
+- title: bmo-dance.gif
+  category: dancing
+  path: dancing/bmo-dance.gif
+  modified_time: 1527820144
+  tags:
+  - bmo
+  - dance
+  - dancing
+  - gif
 - title: hot-rod-dance.gif
   category: dancing
   path: dancing/hot-rod-dance.gif

@@ -1,4 +1,4 @@
 ---
-title: Gif Collection
+title: My Gifs
 layout: home
 ---
